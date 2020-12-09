@@ -8,10 +8,9 @@ function d=udist(pt1,pt2)
 %         while pt2 can be either 1 x n vector or m x n matrix.    
 % OUTPUT: 
 %        d : m (points) x 1 vector
-% Weirong Chen   May-12-2014
+% WRC   May-12-2014
 nPointsPt2=size(pt2,1); nPointsPt1=size(pt1,1);
 dimsPt1=size(pt1,2); dimsPt2=size(pt2,2);
-
 if dimsPt1~=dimsPt2, error('dimensions not match!');end % if dimsPt1~=dimsPt2, return d=0.
 if nPointsPt2==nPointsPt1
     d=sqrt(sum((pt1-pt2).^2,2));
@@ -19,4 +18,4 @@ elseif nPointsPt2==1 && nPointsPt1>1
     arr1=pt1; arr2=repmat(pt2,nPointsPt1,1);
     d=sqrt(sum((arr1-arr2).^2,2));
 end
-% end %udist
+end %udist
