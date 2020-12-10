@@ -2,8 +2,8 @@
 
 
 
-### Installing DeepEdge: 
-#### System requirements:
+### Installation: 
+#### Requirements:
 - MATLAB R2018b or newer
 - Deep Learning Toolbox
 
