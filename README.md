@@ -3,7 +3,7 @@ DeepEdge is a MATLAB-based interactive tool for automatic ultrasound tongue cont
 
 ------------------------------------------
 ### Installation: 
-####   METHOD 1. 
+####   *  METHOD 1. 
 ####     Requirements:
          - MATLAB R2018b or newer
          - Deep Learning Toolbox
