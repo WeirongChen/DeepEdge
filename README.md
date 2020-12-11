@@ -44,7 +44,7 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 ### COPYRIGHT, LICENSE & DISCLAIMER
 Copyright (C) 2020 Wei-Rong Chen <chenw@haskins.yale.edu>  
 This program is free software under GNU General Public License, version 3.  
-This program is distributed WITHOUT ANY FORM OF EXPRESS or IMPLIED WARRANTY and ANY SUPPORT.    
+This program is distributed WITHOUT ANY FORM of EXPRESS or IMPLIED WARRANTY and ANY SUPPORT.    
 See the GNU General Public License for more details.  
 
 
