@@ -32,7 +32,7 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
      >> DeepEdge  
 
 ##### Usage: 
-- 1. Load video:  Click "File" -> "Load video"
+- 1. Load video:  Click "File" -> "Load video"  
 - 2. Crop video: Click "CROP" button in "IMAGE" tab, then click & drag to select the fan-shape area that contains tongue contour. 
 - 3. In the "DeepEdge" tab, select "NeuralNet" or "NN+SNAKE" for whether you want to track using just the neural network model  or the hybrid method of combining neural network and SNAKE.  
 - 4. Click "Detect current frame" to apply the algorithm on this frame.
@@ -42,10 +42,10 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 
 
 ### COPYRIGHT, LICENSE & DISCLAIMER
-Copyright (C) 2020 Wei-Rong Chen <chenw@haskins.yale.edu>
-This program is free software under GNU General Public License, version 3.
-This program is distributed WITHOUT ANY WARRANTY AND SUPPORT. 
-See the GNU General Public License for more details.
+Copyright (C) 2020 Wei-Rong Chen <chenw@haskins.yale.edu>  
+This program is free software under GNU General Public License, version 3.  
+This program is distributed WITHOUT ANY WARRANTY AND SUPPORT.   
+See the GNU General Public License for more details.  
 
 
 
