@@ -11,10 +11,17 @@ function [nnXY, tMask, probMask, nnXYlength, anchors] = predUSTC(net, im, nAncho
     anchors = nnXY(int8(linspace(1, size(nnXY,1), nAnchors)),:);
 end % predUSTC
 
+function [len, dist] = LineLength(input_line)
+    % This function calculates the length of a line by using Euclidean distance. 
+    % 'input_line':  n(Points) x m (dimensions) matrix for the coordinates of the points of the input line.
+    %  'len' : length of input_line;   'dist' : distances of each segment along the line
+    d = diff(input_line); dist = sqrt(sum(d.^2,2)); len =sum(dist);
+end %function [len, dist] = LineLength(input_line)
+
 function xy = skeleton_analysis(tMask)
     nPts = 100; [h,w] = size(tMask); origin = [w/2, h];  tMask = tMask > 0; 
     out = bwskel(tMask,'MinBranchLength', round(h*0.1)); % set 'MinBranchLength' as 10% of image height to reduce branches.
-    [y, x] = find(out); xy = [x,y];  xy=polarSort(origin, xy); xy = interpLine(xy, nPts); 
+    [y, x] = find(out); xy = [x,y];  xy=polarSort(origin, xy); xy = interpLine_simple(xy, nPts,'makima'); 
 end  % function xy = skeleton_analysis
 
 function xy3=polarSort(origin, xy)
@@ -67,3 +74,8 @@ function tMask = blob_analysis(originalImage)
     tMask = tMask(:,:,~removeIdx); tMask = sum(tMask,3);
     % imshow(tMask)
 end % function tMask = blob_analysis(originalImage)
+
+function out = interpLine_simple(in, density, method)
+    in = unique(in, 'rows', 'stable'); n=size(in,1); if n == 1, out = repmat(in, density,1);return;end
+    cumDist = [0; cumsum(sqrt(sum(diff(in).^2,2)))]; out = interp1(cumDist, in,linspace(0, cumDist(end), density), method);
+end 
