@@ -24,12 +24,12 @@ function [xy, energy, Egradient]=slurp_snake(im, anchors, Egradient, nAnchorPoin
     if size(im,3) >1, im = rgb2gray(im); end % if color, convert to gray 
     if isinteger(im), im = im2double(uint8(im));end % if integer, convert to double
     if nargin < 3 || isempty(Egradient), Egradient = Egrad(im, Sigma, ROI, mask); end
-    marginWidth = 50; % add extra margin in pixel
+    marginWidth = 200; % add extra margin in pixel
      [im_margin, Egradient1] = add_margin(im, marginWidth, Egradient);
      ptOffsets = [marginWidth, marginWidth];
     transIm = im_margin'; transEgrad = Egradient1';
     interpMethod = 'makima'; 
-    if nAnchorPoints ~= size(anchors,1), anchors = interpLine(anchors, nAnchorPoints, interpMethod); end
+    if nAnchorPoints ~= size(anchors,1), anchors = interpLine_simple(anchors, nAnchorPoints, interpMethod); end
     pts = anchors + ptOffsets; DeltaArr = Delta*ones(nAnchorPoints,1);
     [xy, energy] = make_snake(transIm, transEgrad, pts, DeltaArr,  BandPenalty, Alpha, Lambda1, UseBand);
     xy = xy - ptOffsets; 
@@ -69,3 +69,8 @@ function grad = imageGradient(I, sigma)
     Ix  = imfilter(I,xGauss,'corr'); Iy  = imfilter(I,yGauss,'corr');
     grad = sqrt(Ix.^2 + Iy.^2);
 end %function grad = imageGradient(I, sigma)
+
+function out = interpLine_simple(in, density, method)
+    in = unique(in, 'rows', 'stable'); n=size(in,1); if n == 1, out = repmat(in, density,1);return;end
+    cumDist = [0; cumsum(sqrt(sum(diff(in).^2,2)))]; out = interp1(cumDist, in,linspace(0, cumDist(end), density), method);
+end 
