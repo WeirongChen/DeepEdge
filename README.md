@@ -41,6 +41,9 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 - 5. Click "Track" to apply tracking continously; you can stop anytime by clicking "Stop tracking"
 ------------------------------------------
 ------------------------------------------
+###
+If you don't have access to MATLAB R2021a, you can download a compiled standalone installer (Windows only):
+[DeepEdge standalone Web installer](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/ERd1ohxKtxRFucIxT4gN0UkBOxHNWxVX_3fL22CTGXyuhQ)
 
 
 ### COPYRIGHT, LICENSE & DISCLAIMER
@@ -50,7 +53,7 @@ This program is distributed WITHOUT ANY FORM of EXPRESS or IMPLIED WARRANTY and 
 See the GNU General Public License for more details.  
 
 
-Latest update: 21JUL2021
+Latest update: 25AUG2021
 
 -------------------------------------------
 ## REFERENCES
