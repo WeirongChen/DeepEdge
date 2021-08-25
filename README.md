@@ -16,8 +16,10 @@ DeepEdge is a MATLAB-based interactive tool for automatic ultrasound tongue cont
 ##### Steps:
 - 1. Download all the files from this distribution and put them in a folder. 
   
-- 2. Download the U-Net model and put it in the same folder: 
-      [unet4300](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EXsijdmwl8hDuP1vKsbHdoIB3hXRq5fJNBa80H9BsyK_TA?e=ILS8Ko)
+- 2. Download one of the U-Net models and put it in the same folder: 
+       (Choose the model that best matches your setting:)
+      [DpEdg_Ultrasonix-SonixTouch_C9-5-10_7NOV2019](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EXsijdmwl8hDuP1vKsbHdoIB3hXRq5fJNBa80H9BsyK_TA)
+      [DpEdg_PhilipsEpiq7_X6-1_30JUL2021](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EfXVGuEvizRKlPXzOmgxw8wBaifIkKT9dgc_zlzFdB13Ew)
 
 - 3. Download 'make_snake' from Cathy Laporte's [SLURP](https://github.com/cathylaporte/SLURP) repository and put it in the same folder:
 
