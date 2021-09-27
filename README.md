@@ -42,9 +42,10 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 ------------------------------------------
 ------------------------------------------
 ###
-If you don't have access to MATLAB R2021a, you can download a compiled standalone installer (Windows only):
+<!--  If you don't have access to MATLAB R2021a, you can download a compiled standalone installer (Windows only):
 (You still need to download one of the U-Net models but not 'make_snake')
 [DeepEdge standalone Web installer v1.6](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EeEVC_R1IKBLmpHzNYtMDC4Bm7v0lqx0HW10wKNQVDKmHA?e=vV5q02)
+-->
 
 
 ### COPYRIGHT, LICENSE & DISCLAIMER
