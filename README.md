@@ -36,10 +36,14 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
      >> DeepEdge  
 
 ##### Usage: 
+- 0. DeepEdge will automatically load the first readable model file in the current folder. 
+     Click "Info" -> "Model information" to check if the model is properly loaded.
+     You can also manually load the model by clicking "File" -> "Load model"
 - 1. Load video:  Click "File" -> "Load video"  
+- (Optional) Load TextGrid file: Click "File" -> "Load TextGrid"
 - 2. Crop video: Click "CROP" button in "IMAGE" tab, then click & drag to select the fan-shape area that contains tongue contour. 
 - 3. In the "DeepEdge" tab, select "NeuralNet" or "NN+SNAKE" for whether you want to track using just the neural network model  or the hybrid method of combining neural network and SNAKE.  
-- 4. Click "Detect current frame" to apply the algorithm on this frame.
+- 4. Click "Apply to current frame" to apply the algorithm on this frame.
 - 5. Click "Track" to apply tracking continously; you can stop anytime by clicking "Stop tracking"
 ------------------------------------------
 ------------------------------------------
