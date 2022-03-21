@@ -37,7 +37,7 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
      >> DeepEdge  
 
 ##### Usage: 
-- 0. DeepEdge will automatically load the first readable model file in the current folder. 
+- 0. DeepEdge will automatically load the first readable (in alphabetical order) model file in the current folder. 
      Click "Info" -> "Model information" to check if the model is properly loaded.
      You can also manually load the model by clicking "File" -> "Load model"
 - 1. Load video:  Click "File" -> "Load video"  
