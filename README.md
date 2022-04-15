@@ -22,7 +22,7 @@ v1.6.7
 - 2. Download one of the U-Net models and put it in the same folder: 
     Choose the model that best matches (machine/probe combination) your setting. 
     If there is no match of your machine in the list, try the general purpose model (DpEdge_General...) first.
-      - [DpEdg_General_04APR2022] (https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EeDIJCPppZRHqMZnHYtn574B-uLfHler97yzCtzXDq5a_A?e=KcZB64)
+      - [DpEdg_General_04APR2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EeDIJCPppZRHqMZnHYtn574B-uLfHler97yzCtzXDq5a_A?e=KcZB64)
       - [DpEdg_Ultrasonix-SonixTouch_C9-5-10_7NOV2019](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EXsijdmwl8hDuP1vKsbHdoIB3hXRq5fJNBa80H9BsyK_TA)
       - [DpEdg_PhilipsEpiq7_X6-1_31MAR2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EfwIjdGuBNpHoo8gKF8KawQBbbiihSoNZ1mA090bPMQCHw?e=32RXCH)
       - [DpEdg_PhilipsEpiq7_C8-5_03APR2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EdJcEUJQ7ZhAuDo4EPiPiEgBNGvALYBuYy3lVZp7Lp3vFQ?e=BVpzB8)
