@@ -1,5 +1,5 @@
 # DeepEdge
-v2.1
+v2.3
 - DeepEdge is a MATLAB-based interactive tool for automatic ultrasound tongue contouring, by combining convolutional neural network and SNAKE edge detection methods. DeepEdge uses the pre-trained neural network (U-Net) model to predict the probability of each pixel being covered by the tongue edge, and then SNAKE edge detection refines the neural network predicted tongue edge. 
 
 - The SNAKE algorithm in this program was adopted from [Cathy Laporte's]((https://www.etsmtl.ca/Professeurs/calaporte/Accueil?lang=en-CA)) (Laporte & Ménard, 2018) implementation of the ‘snake’ algorithm in EdgeTrak (Li et al. 2005).
@@ -56,16 +56,18 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 (You still need to download one of the U-Net models but not 'make_snake')
 [DeepEdge standalone Web installer v1.6](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EeEVC_R1IKBLmpHzNYtMDC4Bm7v0lqx0HW10wKNQVDKmHA?e=vV5q02)
 -->
-
+### 
+Known issues:
+- Currently MATLAB does not support lossless pixel format yuv444p. If DeepEdge can't read your video file, check if the pixel format of the video file is yuv444p; if it is, re-encode the video file with yuv420p. 
 
 ### COPYRIGHT, LICENSE & DISCLAIMER
-Copyright (C) 2020 Wei-Rong Chen <chenw@haskins.yale.edu>  
+Copyright (C) 2020 Wei-Rong Chen <wei-rong.chen@yale.edu>  
 This program is free software under GNU General Public License, version 3.  
 This program is distributed WITHOUT ANY FORM of EXPRESS or IMPLIED WARRANTY and ANY SUPPORT.    
 See the GNU General Public License for more details.  
 
 
-Latest update: 22SEP2022
+Latest update: 8FEB2023
 
 -------------------------------------------
 ## REFERENCES
