@@ -43,25 +43,25 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
      >> DeepEdge  
 
 ##### Usage: 
-- 0. DeepEdge will automatically load the first readable (in alphabetical order) model file in the current folder. 
+0. DeepEdge will automatically load the first readable (in alphabetical order) model file in the current folder. 
      Click "Info" -> "Model information" to check if the model is properly loaded.
      You can also manually load the model by clicking "File" -> "Load model"
-- 1. Load video:  Click "File" -> "Load video(s)"  
+1. Load video:  Click "File" -> "Load video(s)"  
      You can press "CTRL" or "SHIFT" and then click files to select multiple files. 
      This will create a file list to be selected in a sequence. 
      You can click "File" -> "Show/Select from loaded FileList" to select file in the list.
-- (Optional) Load .TextGrid file: Click "File" -> "Load TextGrid"
-- (Optional) Load contours in .mat file: Click "File" -> "Load contours"
-- 2. Crop video: Click "CROP" button in "IMAGE" tab, then click & drag to select the fan-shape area that contains tongue contour. 
-- 3. In the "DeepEdge" tab, select "NeuralNet" or "NN+SNAKE" for whether you want to track using just the neural network model (NeuralNet) or the hybrid method of combining neural network and SNAKE (NN+SNAKE). 
+         - (Optional) Load .TextGrid file: Click "File" -> "Load TextGrid"
+         - (Optional) Load contours in .mat file: Click "File" -> "Load contours"
+2. Crop video: Click "CROP" button in "IMAGE" tab, then click & drag to select the fan-shape area that contains tongue contour. 
+3. In the "DeepEdge" tab, select "NeuralNet" or "NN+SNAKE" for whether you want to track using just the neural network model (NeuralNet) or the hybrid method of combining neural network and SNAKE (NN+SNAKE). 
      Select "SNAKE" only: Use the contour in the current frame as the seeds to track the tongue edge in the next frame using SNAKE algorithm.    
-- 4. Click "Apply to current frame" to apply the algorithm on this frame.
+4. Click "Apply to current frame" to apply the algorithm on this frame.
      You can adjust "NN Prob. Thresh" (i.e., contour mask confidence) to best fit your data; higher threshold excludes more speckle noises; lower threshold can be used when the contour edge in the image is not clear (including less definite edges). 
-- 5. Click "Track thru Frames in this file" to apply tracking continously on this video file. 
-          You can stop anytime by clicking "Stop tracking"
-     Click "Track thru Files in list (auto-save on)" to apply tracking through all files in the selected file list.
-     When trackign through files, "Auto-Save" will be automatically turned "on": Contours will be automatically saved when the last frame is run through or a preset auto-save frame number is reached (default = 2000). 
-- 6. Click "Export" -> "Export contours to .MAT file" to save the contours for the currrent video file. 
+5. Click "Track thru Frames in this file" to apply tracking continously on this video file. 
+          - You can stop anytime by clicking "Stop tracking"
+     - Click "Track thru Files in list (auto-save on)" to apply tracking through all files in the selected file list.
+     - When trackign through files, "Auto-Save" will be automatically turned "on": Contours will be automatically saved when the last frame is run through or a preset auto-save frame number is reached (default = 2000). 
+6.. Click "Export" -> "Export contours to .MAT file" to save the contours for the currrent video file. 
 - Manual contouring:  
   Left click to add an anchors point of the tongue contour. 
   Left click and drag to draw a contour. 
