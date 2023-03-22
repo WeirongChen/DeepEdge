@@ -17,9 +17,9 @@ v2.4.7
          - Image Processing toolbox (MATLAB)
          - Computer Vision toolbox (MATLAB)
 ##### Steps:
-- 1. Download all the files from this distribution and put them in a folder. 
+1. Download all the files from this distribution and put them in a folder. 
   
-- 2. Download one of the U-Net models and put it in the same folder: 
+2. Download one of the U-Net models and put it in the same folder: 
     Choose the model that best matches (machine/probe combination) your setting. 
     
     Try the general purpose model (DpEdge_General...) first. If the general model doesn't work well on your data, you can try other machine-specific models. 
@@ -30,7 +30,7 @@ v2.4.7
       - [DpEdg_PhilipsEpiq7_C8-5_03APR2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EdJcEUJQ7ZhAuDo4EPiPiEgBNGvALYBuYy3lVZp7Lp3vFQ?e=BVpzB8)
       - [DpEdg_Telemed_MC4-2R20S3_128x128_27DEC2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EVJg8mWLQ1hDhYt5M0arZ4kB60MxpHycADOl4S_1sxmTYQ?e=SxtDb5)
      
-- 3. Download 'make_snake' from Cathy Laporte's [SLURP](https://github.com/cathylaporte/SLURP) repository and put it in the same folder:
+3. Download 'make_snake' from Cathy Laporte's [SLURP](https://github.com/cathylaporte/SLURP) repository and put it in the same folder:
 
      For Windows: [make_snake.mexw64](https://github.com/cathylaporte/SLURP/blob/master/make_snake.mexw64) 
 
