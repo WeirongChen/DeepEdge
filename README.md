@@ -47,9 +47,9 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
      Click "Info" -> "Model information" to check if the model is properly loaded.
      You can also manually load the model by clicking "File" -> "Load model"
 1. Load video:  Click "File" -> "Load video(s)"  
-     You can press "CTRL" or "SHIFT" and then click files to select multiple files. 
-     This will create a file list to be selected in a sequence. 
-     You can click "File" -> "Show/Select from loaded FileList" to select file in the list.
+     - You can press "CTRL" or "SHIFT" and then click files to select multiple files. 
+     - This will create a file list to be selected in a sequence. 
+     - You can click "File" -> "Show/Select from loaded FileList" to select file in the list.
          - (Optional) Load .TextGrid file: Click "File" -> "Load TextGrid"
          - (Optional) Load contours in .mat file: Click "File" -> "Load contours"
 2. Crop video: Click "CROP" button in "IMAGE" tab, then click & drag to select the fan-shape area that contains tongue contour. 
