@@ -23,11 +23,11 @@ v2.4.7
     Choose the model that best matches (machine/probe combination) your setting. 
     
     Try the general purpose model (DpEdge_General...) first. If the general model doesn't work well on your data, you can try other machine-specific models. 
-     
-      - [DpEdg_General_14MAR2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EcY_QSZkxSNOtiiYUFwM5jIBY_pXKyFcc93UsMz44IpjwA?e=GZXNiM)
+      - [DpEdg_General_128_25MAR2023](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/ET_q_t7mYDBJv5uiMP2OSboBZqX7bWd9SsdXdPHBosPcgQ?e=mZwwiK)    
+      - [DpEdg_General_64_augm_30MAR2023](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/ES12JVtJQLlPrmoydtXN_jUBttbG6jZhSyU--B_4cGB90g?e=bFvJrA)    
+ 
       - [DpEdg_Ultrasonix-SonixTouch_C9-5-10_7NOV2019](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EXsijdmwl8hDuP1vKsbHdoIB3hXRq5fJNBa80H9BsyK_TA)
-      - [DpEdg_PhilipsEpiq7_X6-1_31MAR2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EfwIjdGuBNpHoo8gKF8KawQBbbiihSoNZ1mA090bPMQCHw?e=32RXCH)
-      - [DpEdg_PhilipsEpiq7_C8-5_03APR2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EdJcEUJQ7ZhAuDo4EPiPiEgBNGvALYBuYy3lVZp7Lp3vFQ?e=BVpzB8)
+
       - [DpEdg_Telemed_MC4-2R20S3_128x128_27DEC2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EVJg8mWLQ1hDhYt5M0arZ4kB60MxpHycADOl4S_1sxmTYQ?e=SxtDb5)
      
 3. Download 'make_snake' from Cathy Laporte's [SLURP](https://github.com/cathylaporte/SLURP) repository and put it in the same folder:
