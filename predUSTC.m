@@ -1,4 +1,4 @@
-function [nnXY, nnMask, probMask, nnXYlength, anchors] = predUSTC(net, im, nAnchors, blobProbThreshold)
+function [nnXY, nnMask, probMask, nnXYlength, anchors, nnMask0] = predUSTC(net, im, nAnchors, blobProbThreshold)
 % Updated: 25DEC2022  -- Added blobIntensThreshhold
 % Wei-Rong Chen
 if nargin < 4 || isempty(blobProbThreshold), blobProbThreshold = 0.5; end
@@ -15,7 +15,9 @@ if nargin < 3 || isempty(nAnchors), nAnchors = 20; end
     try
         nnXY0= skeleton_analysis(nnMask0);  nnXY = (nnXY0 ./ [w,h]) .* [w0,h0];
         nnXYlength = sum(sqrt(sum(diff(nnXY).^2,2))); % LineLength(nnXY);
-        anchors = nnXY(int8(linspace(1, size(nnXY,1), nAnchors)),:);
+        anchorInds = uint8(linspace(1, size(nnXY,1), nAnchors));
+        anchors = nnXY(anchorInds,:);
+        nnXYlength = single(nnXYlength);
     catch
         return
     end

@@ -29,6 +29,9 @@ function [xy, energy, Egradient]=slurp_snake(im, anchors, Egradient, nAnchorPoin
      ptOffsets = [marginWidth, marginWidth];
     transIm = im_margin'; transEgrad = Egradient1';
     interpMethod = 'makima'; 
+    %% 
+    anchors = double(anchors); % must be double or SNAKE will crash
+    %%
     if nAnchorPoints ~= size(anchors,1), anchors = interpLine_simple(anchors, nAnchorPoints, interpMethod); end
     pts = anchors + ptOffsets; DeltaArr = Delta*ones(nAnchorPoints,1);
     [xy, energy] = make_snake(transIm, transEgrad, pts, DeltaArr,  BandPenalty, Alpha, Lambda1, UseBand);
@@ -36,6 +39,7 @@ function [xy, energy, Egradient]=slurp_snake(im, anchors, Egradient, nAnchorPoin
     % ensure XY defined increasing left to right (blows up below if right to left)
     if xy(1,1) > xy(end,1), xy = flipud(xy); end
     energy = single(energy);
+    % xy = single(xy);
 end %function [xy, energy, Egradient]=slurp_snake
 
 function [im2, Egradient2] = add_margin(im, mW, Egradient)
