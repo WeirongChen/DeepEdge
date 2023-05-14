@@ -1,0 +1,88 @@
+File type = "ooTextFile"
+Object class = "TextGrid"
+
+xmin = 0.000000
+xmax = 3.136104
+tiers? <exists>
+size = 2
+item []:
+    item [1]:
+        class = "IntervalTier"
+        name = "words"
+        xmin = 0.000000
+        xmax = 3.136104
+        intervals: size = 7
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.690000
+            text = ""
+        intervals [2]:
+            xmin = 0.690000
+            xmax = 1.110000
+            text = "zhe"
+        intervals [3]:
+            xmin = 1.110000
+            xmax = 1.320000
+            text = ""
+        intervals [4]:
+            xmin = 1.320000
+            xmax = 1.770000
+            text = "wo1"
+        intervals [5]:
+            xmin = 1.770000
+            xmax = 1.960000
+            text = ""
+        intervals [6]:
+            xmin = 1.960000
+            xmax = 2.190000
+            text = "ba"
+        intervals [7]:
+            xmin = 2.190000
+            xmax = 3.136104
+            text = ""
+    item [2]:
+        class = "IntervalTier"
+        name = "phones"
+        xmin = 0.000000
+        xmax = 3.136104
+        intervals: size = 10
+        intervals [1]:
+            xmin = 0.000000
+            xmax = 0.690000
+            text = ""
+        intervals [2]:
+            xmin = 0.690000
+            xmax = 0.810000
+            text = "tʂ"
+        intervals [3]:
+            xmin = 0.810000
+            xmax = 1.110000
+            text = "ɤ"
+        intervals [4]:
+            xmin = 1.110000
+            xmax = 1.320000
+            text = ""
+        intervals [5]:
+            xmin = 1.320000
+            xmax = 1.590000
+            text = "w"
+        intervals [6]:
+            xmin = 1.590000
+            xmax = 1.770000
+            text = "o"
+        intervals [7]:
+            xmin = 1.770000
+            xmax = 1.960000
+            text = ""
+        intervals [8]:
+            xmin = 1.960000
+            xmax = 2.000000
+            text = "p"
+        intervals [9]:
+            xmin = 2.000000
+            xmax = 2.190000
+            text = "a"
+        intervals [10]:
+            xmin = 2.190000
+            xmax = 3.136104
+            text = ""
