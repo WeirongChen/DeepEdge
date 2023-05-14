@@ -40,8 +40,9 @@ Latest update: 12MAY2023
      For Windows: [make_snake.mexw64](https://github.com/cathylaporte/SLURP/blob/master/make_snake.mexw64) 
 
      For MAC: [make_snake.mexmaci64](https://github.com/cathylaporte/SLURP/blob/master/make_snake.mexmaci64)
-
-##### Run:
+     
+------------------------------------------
+### RUN
 For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', then:
 - In MATLAB command window, type:
      >> cd ./DeepEdge  
@@ -64,7 +65,7 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 <img src="./Screenshots/tab2_Anchor.png" width = 250>
 </p>
 <p align="center">
-<img src="./Screenshots/tab3_DeepEdge.png" width = 250>
+<img src="./Screenshots/tab3_DeepEdgeb.png" width = 250>
 <img src="./Screenshots/tab4_Diagnostic.png" width = 250>
 </p>
 
