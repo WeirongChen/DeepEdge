@@ -1,1 +1,10 @@
-list of screen shots
+_main.png
+menu1_File.png
+menu2_Export.png
+menu3_Command.png
+menu4_Audio.png
+menu5_Info.png
+tab1_Config.png
+tab2_Anchor.png
+tab3_DeepEdge.png
+tab4_Diagnostic.png
