@@ -3,7 +3,7 @@ v2.6.6
 
 Latest update: 12MAY2023
 
-<img src="./Screenshots/_main.png" width="300" height="200">
+<p align="center"><img src="./Screenshots/_main.png" width="400"></p>
 
 - DeepEdge is a MATLAB-based interactive tool for automatic ultrasound tongue contouring, by combining convolutional neural network and SNAKE edge detection methods. DeepEdge uses the pre-trained neural network (U-Net) model to predict the probability of each pixel being covered by the tongue edge, and then SNAKE edge detection refines the neural network predicted tongue edge. 
 
