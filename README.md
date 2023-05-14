@@ -3,7 +3,7 @@ v2.6.6
 
 Latest update: 12MAY2023
 
-<p align="center"><img src="./Screenshots/_main.png" width="400"></p>
+<p align="center"><img src="./Screenshots/_main.png" width="550"></p>
 
 - DeepEdge is a MATLAB-based interactive tool for automatic ultrasound tongue contouring, by combining convolutional neural network and SNAKE edge detection methods. DeepEdge uses the pre-trained neural network (U-Net) model to predict the probability of each pixel being covered by the tongue edge, and then SNAKE edge detection refines the neural network predicted tongue edge. 
 
@@ -49,13 +49,13 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 
 ##### Drop-down menus: 
 <p align="center">
-<img src="./Screenshots/menu1_File.png" width = 120 style="vertical-align: top;">
-<img src="./Screenshots/menu2_Export.png" width = 130 style="vertical-align: top;">
+<img src="./Screenshots/menu1_File.png" width = 150 style="vertical-align: top;">
+<img src="./Screenshots/menu2_Export.png" width = 170 style="vertical-align: top;">
 </p>
 <p align="center">
-<img src="./Screenshots/menu3_Command.png" width = 150 style="vertical-align: top;">
-<img src="./Screenshots/menu4_Audio.png" width = 100 style="vertical-align: top;">
-<img src="./Screenshots/menu5_Info.png" width = 70 style="vertical-align: top;">
+<img src="./Screenshots/menu3_Command.png" width = 200 style="vertical-align: top;">
+<img src="./Screenshots/menu4_Audio.png" width = 150 style="vertical-align: top;">
+<img src="./Screenshots/menu5_Info.png" width = 100 style="vertical-align: top;">
 </p>
 ##### Usage: 
 0. DeepEdge will automatically load the first readable (in alphabetical order) model file in the current folder. 
