@@ -58,6 +58,17 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 <img src="./Screenshots/menu5_Info.png" width = 100>
 </p>
 
+##### Tab panels: 
+<p align="center">
+<img src="./Screenshots/tab1_Config.png" width = 250>
+<img src="./Screenshots/tab2_Anchor.png" width = 250>
+</p>
+<p align="center">
+<img src="./Screenshots/tab3_DeepEdge.png" width = 250>
+<img src="./Screenshots/tab4_Diagnostic.png" width = 250>
+</p>
+
+
 ##### Usage: 
 0. DeepEdge will automatically load the first readable (in alphabetical order) model file in the current folder. 
      - Click "Info" -> "Model information" to check if the model is properly loaded.
