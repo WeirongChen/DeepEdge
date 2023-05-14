@@ -49,14 +49,15 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
 
 ##### Drop-down menus: 
 <p align="center">
-<img src="./Screenshots/menu1_File.png" width = 150 style="vertical-align: top;">
-<img src="./Screenshots/menu2_Export.png" width = 170 style="vertical-align: top;">
+<img src="./Screenshots/menu1_File.png" width = 150>
+<img src="./Screenshots/menu2_Export.png" width = 170>
 </p>
 <p align="center">
-<img src="./Screenshots/menu3_Command.png" width = 200 style="vertical-align: top;">
-<img src="./Screenshots/menu4_Audio.png" width = 150 style="vertical-align: top;">
-<img src="./Screenshots/menu5_Info.png" width = 100 style="vertical-align: top;">
+<img src="./Screenshots/menu3_Command.png" width = 200>
+<img src="./Screenshots/menu4_Audio.png" width = 150>
+<img src="./Screenshots/menu5_Info.png" width = 100>
 </p>
+
 ##### Usage: 
 0. DeepEdge will automatically load the first readable (in alphabetical order) model file in the current folder. 
      - Click "Info" -> "Model information" to check if the model is properly loaded.
