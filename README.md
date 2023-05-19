@@ -117,7 +117,7 @@ Known issues:
 - Currently MATLAB does not support lossless pixel format yuv444p. If DeepEdge can't read your video file, check if the pixel format of the video file is yuv444p; if it is, re-encode the video file with yuv420p. 
 
 ### COPYRIGHT, LICENSE & DISCLAIMER
-Copyright (C) 2020 Wei-Rong Chen <wei-rong.chen@yale.edu>  
+Copyright (C) 2020 Wei-Rong Chen <wei-rong.chen[AT]yale.edu>  
 This program is free software under GNU General Public License, version 3.  
 This program is distributed WITHOUT ANY FORM of EXPRESS or IMPLIED WARRANTY and ANY SUPPORT.    
 See the GNU General Public License for more details.  
