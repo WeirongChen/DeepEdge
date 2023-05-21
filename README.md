@@ -1,4 +1,5 @@
 # DeepEdge
+AI tool for automatic contour tracing/tracking in ultrasound video
 v2.6.6
 
 Latest update: 12MAY2023
