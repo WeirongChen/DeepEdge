@@ -9,7 +9,7 @@ Latest update: 12MAY2023
 
 
 
-https://github.com/WeirongChen/DeepEdge/assets/25228432/9a52d307-bdaf-47ab-8955-61a444573b8f
+https://github.com/WeirongChen/DeepEdge/assets/25228432/d61eb3fe-cca0-411c-b968-f3591938a5dd
 
 
 
