@@ -35,10 +35,11 @@ https://github.com/WeirongChen/DeepEdge/assets/25228432/d61eb3fe-cca0-411c-b968-
 2. Download one of the U-Net models and put it in the same folder: 
     Choose the model that best matches (machine/probe combination) your setting. 
     
-    Try the general purpose model (DpEdge_General...) first. If the general model doesn't work well on your data, you can try other machine-specific models. 
+- Try the general purpose model (DpEdge_General...) first. The following general models were trained with 20K+ hand-traced samples across 7 ultrasound machine/probe combinations, covering most common ultrasound systems for tongue imaging.  'DpEdg_General_128' was trained with larger (128x128) images; it should provide higher accuracy but runs slower. 'DpEdg_General_64' was trained with smaller (64x64) images; it runs faster with a slight decrease in accuracy. Howevery, 'DpEdg_General_64' could be more robust due to using larger pixels in some ultrasound videos.  You can download both and see how them fit to your ultrasound videos. 
       - [DpEdg_General_128_25MAR2023](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/ET_q_t7mYDBJv5uiMP2OSboBZqX7bWd9SsdXdPHBosPcgQ?e=mZwwiK)    
       - [DpEdg_General_64_augm_30MAR2023](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/ES12JVtJQLlPrmoydtXN_jUBttbG6jZhSyU--B_4cGB90g?e=bFvJrA)    
- 
+
+ - If the general model doesn't work well on your data, you can try other machine-specific models:
       - [DpEdg_Ultrasonix-SonixTouch_C9-5-10_7NOV2019](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EXsijdmwl8hDuP1vKsbHdoIB3hXRq5fJNBa80H9BsyK_TA)
 
       - [DpEdg_Telemed_MC4-2R20S3_128x128_27DEC2022](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EVJg8mWLQ1hDhYt5M0arZ4kB60MxpHycADOl4S_1sxmTYQ?e=SxtDb5)
@@ -50,7 +51,7 @@ https://github.com/WeirongChen/DeepEdge/assets/25228432/d61eb3fe-cca0-411c-b968-
      For MAC: [make_snake.mexmaci64](https://github.com/cathylaporte/SLURP/blob/master/make_snake.mexmaci64)
 
      For newer MAC:
-   If the above mex file for MAC does not work, it could be due to the MAC OS version is not supported. In this case, try the following alternative mex file for new MAC computers:
+   If the above mex file for MAC does not work, it could be due to that the MAC OS version is not supported. In this case, try the following alternative mex file for new MAC computers:
    [make_snake.mexmaci64](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EUgG4j6b1JxEjW8vg1Io8GkBBJH-bLLHPCpwaq-m_MYRjQ?e=lc717p)
 ------------------------------------------
 ### RUN
