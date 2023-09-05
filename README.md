@@ -1,5 +1,5 @@
-# DeepEdge for Ultrasound
-AI tool for automatic contour tracing/tracking in ultrasound video
+# DeepEdge AI Tool for Ultrasound
+DeepEdge AI tool for automatic contour tracing/tracking in ultrasound video
 
 v2.7.1
 
