@@ -92,7 +92,7 @@ For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', t
      - You can click "File" -> "Show/Select from loaded FileList" to select file in the list.
          - (Optional) Load .TextGrid file: Click "File" -> "Load TextGrid"
          - (Optional) Load contours in .mat file: Click "File" -> "Load contours"
-2. Crop video: Click "CROP" button in "IMAGE" tab, then click & drag to select the fan-shape area that contains tongue contour. 
+2. Crop video: Click "CROP" button in "Config." tab, then click & drag to select the fan-shape area that contains tongue contour. 
 3. In the "DeepEdge" tab, select "NeuralNet" or "NN+SNAKE" for whether you want to track using just the neural network model (NeuralNet) or the hybrid method of combining neural network and SNAKE (NN+SNAKE). 
      Select "SNAKE" only: Use the contour in the current frame as the seeds to track the tongue edge in the next frame using SNAKE algorithm.    
 4. Click "Apply to current frame" to apply the algorithm on this frame.
