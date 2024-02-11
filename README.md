@@ -136,13 +136,13 @@ See the GNU General Public License for more details.
 
 
 Update: 
-14DEC2023 v2.7.5  Added "Only track non-empty in TextGrid"; added "Play selected button"; added "Eraser width"
-15DEC2023 v.2.7.6 Fixed bugs.    
-17DEC2023 v.2.7.7 Added "Extract selection as new video/audio/mat/TextGrid (cropped)"
-25DEC2023 v.2.7.8 Added support for *.MTS video format.
-03JAN2024 v.2.7.9 
-05FEB2024 v.2.8 Fixed audio selection bugs; Added Select all audio function. 
-11FEB2024 v.2.8.1 Fixed crop selection bugs.
+- 14DEC2023 v2.7.5  Added "Only track non-empty in TextGrid"; added "Play selected button"; added "Eraser width"
+- 15DEC2023 v.2.7.6 Fixed bugs.    
+- 17DEC2023 v.2.7.7 Added "Extract selection as new video/audio/mat/TextGrid (cropped)"
+- 25DEC2023 v.2.7.8 Added support for *.MTS video format.
+- 03JAN2024 v.2.7.9 
+- 05FEB2024 v.2.8 Fixed audio selection bugs; Added Select all audio function. 
+- 11FEB2024 v.2.8.1 Fixed crop selection bugs.
 
 -------------------------------------------
 ## REFERENCES
