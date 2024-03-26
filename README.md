@@ -134,7 +134,6 @@ This program is free software under GNU General Public License, version 3.
 This program is distributed WITHOUT ANY FORM of EXPRESS or IMPLIED WARRANTY and ANY SUPPORT.    
 See the GNU General Public License for more details.  
 
-
 Update: 
 - 14DEC2023 v2.7.5  Added "Only track non-empty in TextGrid"; added "Play selected button"; added "Eraser width"
 - 15DEC2023 v.2.7.6 Fixed bugs.    
@@ -149,4 +148,8 @@ Update:
 - Laporte, C., & Ménard, L. (2018). Multi-hypothesis tracking of the tongue surface in ultrasound video recordings of normal and impaired speech. Medical Image Analysis, 44, 98-114. doi: https://doi.org/10.1016/j.media.2017.12.003
  - Li, M., Kambhamettu, C., & Stone, M. (2005). Automatic contour tracking in ultrasound images. Clinical linguistics & phonetics, 19(6-7), 545-554. doi: 10.1080/02699200500113616
 - Chen, W.-R., Tiede, M., Kang, J., Kim, B., & Whalen, D. (2019). An electromagnetic articulography-facilitated deep neural network model of tongue contour detection from ultrasound images. Paper presented at the 178th Meeting of the Acoustical Society of America, San Diego, California. 
-- Chen, W.-R., Tiede, M., & Whalen, D. H. (2020). DeepEdge: automatic ultrasound tongue contouring combining a deep neural network and an edge detection algorithm. Paper presented at the 12th International Seminar on Speech Production (ISSP 2020). 
+- Chen, W.-R., Tiede, M., & Whalen, D. H. (2020). DeepEdge: automatic ultrasound tongue contouring combining a deep neural network and an edge detection algorithm. Paper presented at the 12th International Seminar on Speech Production (ISSP 2020).
+- 
+### ACKNOWLEDGEMENT
+This project was supported by US NIH grant 3R01DC002717-22S1 to Yale University and Haskins Laboratories. 
+
