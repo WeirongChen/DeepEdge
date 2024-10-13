@@ -50,9 +50,11 @@ https://github.com/WeirongChen/DeepEdge/assets/25228432/d61eb3fe-cca0-411c-b968-
 
      For MAC: [make_snake.mexmaci64](https://github.com/cathylaporte/SLURP/blob/master/make_snake.mexmaci64)
 
-     For newer MAC:
-   If the above mex file for MAC does not work, it could be due to that the MAC OS version is not supported. In this case, try the following alternative mex file for new MAC computers:
-   [make_snake.mexmaci64](https://yaleedu-my.sharepoint.com/:u:/g/personal/wei-rong_chen_yale_edu/EUgG4j6b1JxEjW8vg1Io8GkBBJH-bLLHPCpwaq-m_MYRjQ?e=lc717p)
+     For MAC with M2 and above: 
+Compile from the [source](https://github.com/cathylaporte/SLURP/tree/master) to get `make_snake.mexmaca64`
+```bash
+mex CFLAGS="$CFLAGS -std=c99" make_snake.c snake.c image.c pnpoly.c spline.c
+```
 ------------------------------------------
 ### RUN
 For example, if the above-mentioned files are put in a folder: ''./DeepEdge'', then:
