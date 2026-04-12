@@ -145,6 +145,7 @@ Update:
 - 03JAN2024 v.2.7.9 
 - 05FEB2024 v.2.8 Fixed audio selection bugs; Added Select all audio function. 
 - 11FEB2024 v.2.8.1 Fixed crop selection bugs.
+- 12APR2026 v.2.9 Fixed bugs. Added 'Convert all contour files to CSV format'
 
 -------------------------------------------
 ## REFERENCES
